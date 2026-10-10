@@ -1,0 +1,24 @@
+============================================================
+RUNNING HEALTH CHECK DIAGNOSTICS
+============================================================
+OPENALEX DIAGNOSTIC:
+  Configured: NO
+  Auth status: SUCCESS
+  HTTP status: 200
+  Category: D: Public pool access succeeded and data received
+  Total matching: 6574895
+  Records received: 5
+  Data received: YES
+  Sample title: Recommender systems
+  Message: Successfully retrieved 5 works (total matching: 6574895).
+
+EPO OPS DIAGNOSTIC:
+  Consumer credentials configured: NO
+  Auth status: NOT_CONFIGURED
+  Token received: NO
+  Category: A: Credential missing
+  Search status: SKIPPED
+  Records received: 0
+  Actual data: NO
+  Message: EPO Consumer Key and/or Secret not configured or set to placeholder.
+============================================================

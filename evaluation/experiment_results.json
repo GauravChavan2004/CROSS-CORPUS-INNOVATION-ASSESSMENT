@@ -1,0 +1,44 @@
+[
+  {
+    "idea_id": "TEST-001",
+    "B1_BM25_results_count": 0,
+    "B1_latency_sec": 0.0,
+    "B2_FAISS_results_count": 0,
+    "B2_latency_sec": 0.0,
+    "P1_retrieved_papers": 5,
+    "P1_retrieved_patents": 4,
+    "P1_cross_corpus_links": 18,
+    "P1_candidate_gaps": 3,
+    "P1_evidence_passages": 46,
+    "P1_invalid_citation_rate": 0.0,
+    "P1_latency_sec": 0.017
+  },
+  {
+    "idea_id": "TEST-002",
+    "B1_BM25_results_count": 5,
+    "B1_latency_sec": 0.0001,
+    "B2_FAISS_results_count": 5,
+    "B2_latency_sec": 0.0002,
+    "P1_retrieved_papers": 5,
+    "P1_retrieved_patents": 4,
+    "P1_cross_corpus_links": 18,
+    "P1_candidate_gaps": 3,
+    "P1_evidence_passages": 46,
+    "P1_invalid_citation_rate": 0.0,
+    "P1_latency_sec": 0.0212
+  },
+  {
+    "idea_id": "TEST-003",
+    "B1_BM25_results_count": 5,
+    "B1_latency_sec": 0.0001,
+    "B2_FAISS_results_count": 5,
+    "B2_latency_sec": 0.0002,
+    "P1_retrieved_papers": 5,
+    "P1_retrieved_patents": 4,
+    "P1_cross_corpus_links": 18,
+    "P1_candidate_gaps": 3,
+    "P1_evidence_passages": 46,
+    "P1_invalid_citation_rate": 0.0,
+    "P1_latency_sec": 0.0147
+  }
+]

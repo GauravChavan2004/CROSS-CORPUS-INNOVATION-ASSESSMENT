@@ -1,0 +1,49 @@
+============================================================
+1. ENVIRONMENT LOADING CHECK
+============================================================
+Backend directory: D:\James\ResearchProject\Research Project Imp\backend
+.env file path: D:\James\ResearchProject\Research Project Imp\backend\.env
+.env file exists: YES
+
+Credential Configuration Summary (NO SECRETS PRINTED):
+- OPENALEX_API_KEY:
+    Configured: YES
+    Raw length: 26, Clean length: 26
+    Whitespace present: NO
+- EPO_CONSUMER_KEY:
+    Configured: YES
+    Raw length: 26, Clean length: 26
+    Whitespace present: NO
+- EPO_CONSUMER_SECRET:
+    Configured: YES
+    Raw length: 29, Clean length: 29
+    Whitespace present: NO
+
+============================================================
+2. OPENALEX API DIAGNOSTIC
+============================================================
+
+[Diagnostic A] OpenAlex with Authorization: Bearer <key>
+HTTP status: 401
+Authentication/request: FAILED
+Response: {"error":"Invalid or missing API key","message":"API key not found"}
+
+[Diagnostic B] OpenAlex with query parameter ?api_key=<key>
+HTTP status: 401
+Authentication/request: FAILED
+Response: {"error":"Invalid or missing API key","message":"API key not found"}
+
+============================================================
+3. EPO OPS API DIAGNOSTIC
+============================================================
+[Diagnostic] EPO OPS Token Generation:
+HTTP status: 401
+Authentication: FAILED
+Response: <error><code>401</code><message>ClientId is Invalid</message>
+			</error>
+		
+Skipping patent search because token was not received.
+
+============================================================
+DIAGNOSTIC COMPLETE
+============================================================
