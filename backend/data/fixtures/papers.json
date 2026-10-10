@@ -1,0 +1,119 @@
+[
+  {
+    "paper_id": "PAPER-001",
+    "title": "Graph Neural Networks for Explainable Molecular Substructure Alignment in Drug Affinity Prediction",
+    "abstract": "Predicting drug-target binding affinity remains a challenge due to poor explainability of deep representations. We present GNN-Affinity, using spatial graph attention to model molecular binding sites. While improving MSE by 14%, current GNN architectures fail when protein 3D conformational dynamics shift under body temperature.",
+    "authors": [
+      "Elena Rostova",
+      "Marcus Chen",
+      "David Kim"
+    ],
+    "publication_year": 2024,
+    "doi": "10.1016/j.jmgm.2024.108200",
+    "keywords": [
+      "Graph Neural Networks",
+      "Drug-Target Affinity",
+      "Molecular Structure",
+      "Explainable AI"
+    ],
+    "source_url": "https://doi.org/10.1016/j.jmgm.2024.108200",
+    "references": [
+      "PAPER-002",
+      "PAPER-005"
+    ],
+    "source_provider": "Semantic Scholar Mock",
+    "retrieved_at": "2026-09-30T19:23:57.403392+00:00",
+    "dataset_version": "1.0.0"
+  },
+  {
+    "paper_id": "PAPER-002",
+    "title": "Transformer Attention Mechanisms in Protein-Ligand Interaction Benchmarks",
+    "abstract": "Transformer encoders capture long-range token sequences representing amino acid chains. However, self-attention maps struggle to represent 3D geometric spatial constraints, leading to false-positive affinity scores on dynamic binding pockets.",
+    "authors": [
+      "Sarah Jenkins",
+      "Arjun Patel"
+    ],
+    "publication_year": 2023,
+    "doi": "10.1021/acs.jcim.3c00123",
+    "keywords": [
+      "Transformers",
+      "Protein Binding",
+      "Self-Attention",
+      "Geometric Deep Learning"
+    ],
+    "source_url": "https://doi.org/10.1021/acs.jcim.3c00123",
+    "references": [],
+    "source_provider": "Semantic Scholar Mock",
+    "retrieved_at": "2026-09-30T19:23:57.403451+00:00",
+    "dataset_version": "1.0.0"
+  },
+  {
+    "paper_id": "PAPER-003",
+    "title": "Quantum-Inspired Hybrid Neural Embeddings for High-Throughput Virtual Screening",
+    "abstract": "High-throughput screening suffers from exponential chemical space exploration limits. We propose quantum variational feature maps for molecule vectorization, achieving 3x speedup. A major limitation is high sensitivity to quantum gate noise on non-cryogenic NISQ hardware.",
+    "authors": [
+      "Kenji Sato",
+      "Laura Vance"
+    ],
+    "publication_year": 2024,
+    "doi": "10.1038/s41598-024-51201-y",
+    "keywords": [
+      "Quantum ML",
+      "Virtual Screening",
+      "Molecular Embeddings"
+    ],
+    "source_url": "https://doi.org/10.1038/s41598-024-51201-y",
+    "references": [
+      "PAPER-001"
+    ],
+    "source_provider": "OpenAlex Mock",
+    "retrieved_at": "2026-09-30T19:23:57.403468+00:00",
+    "dataset_version": "1.0.0"
+  },
+  {
+    "paper_id": "PAPER-004",
+    "title": "Cross-Modal Knowledge Graphs for Biomedical Entity Resolution and Patent Prior-Art Identification",
+    "abstract": "Integrating patent specifications with scientific literature using heterogeneous knowledge graphs enables cross-corpus linkage. Graph embeddings identify hidden technical equivalences, though resolution degrades when processing OCR text from legacy patent claims.",
+    "authors": [
+      "Amara Diallo",
+      "Robert Miller"
+    ],
+    "publication_year": 2023,
+    "doi": "10.1093/bioinformatics/btad412",
+    "keywords": [
+      "Knowledge Graphs",
+      "Entity Resolution",
+      "Prior Art",
+      "Patent Mining"
+    ],
+    "source_url": "https://doi.org/10.1093/bioinformatics/btad412",
+    "references": [
+      "PATENT-001"
+    ],
+    "source_provider": "OpenAlex Mock",
+    "retrieved_at": "2026-09-30T19:23:57.403482+00:00",
+    "dataset_version": "1.0.0"
+  },
+  {
+    "paper_id": "PAPER-005",
+    "title": "Contrastive Multimodal Representation Learning for Genomic-Phenomic Target Discovery",
+    "abstract": "Joint learning across single-cell RNA transcriptomics and clinical phenotypes identifies novel drug target candidates. However, model inference requires paired multi-omic data which is sparse in rare disease cohorts.",
+    "authors": [
+      "Xiao Zhang",
+      "Hannah Smith"
+    ],
+    "publication_year": 2024,
+    "doi": "10.1038/s41587-024-02100-x",
+    "keywords": [
+      "Multimodal Learning",
+      "Genomics",
+      "Contrastive Learning",
+      "Target Discovery"
+    ],
+    "source_url": "https://doi.org/10.1038/s41587-024-02100-x",
+    "references": [],
+    "source_provider": "Semantic Scholar Mock",
+    "retrieved_at": "2026-09-30T19:23:57.403495+00:00",
+    "dataset_version": "1.0.0"
+  }
+]
